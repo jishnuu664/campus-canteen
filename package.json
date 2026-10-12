@@ -1,0 +1,27 @@
+{
+  "name": "campus-canteen-management-system",
+  "version": "1.0.0",
+  "description": "College DBMS Project - Food Ordering & Billing Management System with live MySQL integration",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "keywords": [
+    "dbms",
+    "mysql",
+    "canteen",
+    "food-ordering",
+    "billing",
+    "college-project"
+  ],
+  "author": "Campus Canteen Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.12.0"
+  }
+}
